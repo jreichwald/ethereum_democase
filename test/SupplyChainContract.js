@@ -29,7 +29,7 @@ contract("MyExampleBuyingContract", accounts => {
     });     
 
     it("should be accepted by the owner with sending sufficient ethers", async () => {
-        await sc.accept({from: accounts[0], value: web3.utils.toWei('12', 'ether')});
+        await sc.accept({from: accounts[0], value: web3.utils.toWei('8', 'ether')});
         assert.equal(await sc.getAccepted.call(), true, "Contract is not locked.");  
     });
 

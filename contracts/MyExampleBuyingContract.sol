@@ -36,7 +36,7 @@ contract MyExampleBuyingContract {
 
     function accept() public payable {
         if (msg.sender == owner) {
-            if (msg.value <= bid) {
+            if (msg.value < bid) {
                 revert("Not enough ethers");
             } else {
                 _accepted_by_owner = true; 
