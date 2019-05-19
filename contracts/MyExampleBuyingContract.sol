@@ -57,7 +57,12 @@ contract MyExampleBuyingContract {
     function finalize() public {
         if (msg.sender == owner) {
             seller.transfer(bid);
-            selfdestruct(owner);
+
+	    // Uncomment next line to selfdestruct contract and send 
+            // remaining Ethers back to the owner.
+            // Warning: if contract selfdestructs, it's no longer callable
+            // (even not possible to get balances etc.)
+            // selfdestruct(owner);
         }
     }
 
