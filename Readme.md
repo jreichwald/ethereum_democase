@@ -34,7 +34,7 @@ After installing node, truffle and ganache, clone this repository somewhere on y
 
 1. Change to the truffle project directory you just cloned (using a shell or some command prompt tool)
 2. Start Ganache, create a new workspace and link the truffle project to it (see Ganache User Interface) 
-3. In the project directory, run `npm install truffle-assertions` [(also see here](https://www.npmjs.com/package/truffle-assertions). This package is required to smoothely run the JavaScript test cases
+3. In the project directory, run `npm install truffle-assertions` [(also see here)](https://www.npmjs.com/package/truffle-assertions). This package is required to smoothely run the JavaScript test cases
 4. In the project directory, run `truffle migrate`. This will compile the solidity contract and deploy it as the first demo account which was created by ganache. You should see the demo accounts and the contract in Ganache, too. 
 5. Run `truffle test`. This will start the Use Case implemented as JavaScript test cases. 
 
