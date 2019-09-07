@@ -37,5 +37,8 @@ After installing node, truffle and ganache, clone this repository somewhere on y
 4. In the project directory, run `truffle migrate`. This will compile the solidity contract and deploy it as the first demo account which was created by ganache. You should see the demo accounts and the contract in Ganache, too. _Ganache has to be running for this step!_ 
 5. Run `truffle test`. This will start the Use Case implemented as JavaScript test cases. _Ganache has to be running for this step!_  
 
+## Writing your own Ethereum interaction code 
+I suggest you write your own code using `web3js`. [Read the docs for installation and some examples here](https://web3js.readthedocs.io/en/v1.2.1/)
+
 
 
