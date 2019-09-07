@@ -38,7 +38,7 @@ After installing node, truffle and ganache, clone this repository somewhere on y
 5. Run `truffle test`. This will start the Use Case implemented as JavaScript test cases. _Ganache has to be running for this step!_  
 
 ## Writing your own Ethereum interaction code 
-I suggest you write your own code using `web3js`. [Read the docs for installation and some examples here](https://web3js.readthedocs.io/en/v1.2.1/)
+I suggest you write your own code using `web3js`. [Read the docs for installation and some examples here](https://web3js.readthedocs.io/en/v1.2.1/). For a simple demo code, see the file `demo.js`, which contains a (very small) example connecting to an MQTT broker and executing a value transfer between two involved (fixed) parties.
 
 
 
