@@ -1,6 +1,6 @@
 # Ethereum Smart Contracts: Demo-Usecase
 
-This repository contains an Ethereum Contract to demonstrate the functionality of a contract as well as the interaction with it. This repo contains a truffle project which should do the whole deploment process for you. Nevertheless, some prerequisites need to be installed in advance. 
+This repository contains an Ethereum Contract to demonstrate a contract's functionality as well as the interaction with it. It is based on a truffle project which should do the whole deployment process for you. Nevertheless, some prerequisites need to be installed in advance. 
 
 ## Prerequisites 
 
@@ -25,7 +25,6 @@ Please follow the installation instructions for your operating system:
 6. The owner accepts the bid and sends the necessary amount of Ether to the contract 
 7. Account C sets the serial number of the product to be shipped to the contract 
 8. Contract owner signals that everything worked out fine to the contract. The contract now sends the Ethers to Account C.
-
 
 
 ## Running the Project
